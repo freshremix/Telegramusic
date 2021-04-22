@@ -1,0 +1,13 @@
+{
+  "name": "Bot",
+  "env": {
+    "DEEZER_TOKEN": {
+      "description": "Deezer Token."
+    },
+    "TELEGRAM_TOKEN": {
+      "description": "Get it from @BotFather"
+    }
+  },
+  "stack": "container"
+}
+   
