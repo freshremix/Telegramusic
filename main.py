@@ -35,10 +35,10 @@ logging.basicConfig(level=logging.INFO)
 
 deezloader_async = aioify(obj=deezloader, name='deezloader_async')
 
-download = deezloader_async.Login(os.environ.get('DEEZER_TOKEN'))
+download = deezloader_async.Login(os.environ.get('c973fe4477e9cccd8838da9949d6dc890990cc3b185ff720d591d55b7bf8275d5cac5973104af767a0421de0dce67ce257a13e0fd2e60aaf61ae3a51f3b7b5c489ad817dca9b0eb4540a5dd87b566057380091aefa198370fc918b82e416803d'))
 downloading_users = []
 
-bot = Bot(token=os.environ.get('TELEGRAM_TOKEN'))
+bot = Bot(token=os.environ.get('1935149931:AAHJpR3rfcMvIQrxBqBCWTGjWVMm7GIWcMI'))
 dp = Dispatcher(bot)
 
 
